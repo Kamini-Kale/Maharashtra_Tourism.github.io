@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Maharashtra</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body>
+     <nav>
+         <div class="logo" ><h1 class="animate__heartBeat"> माझा महाराष्ट्र </h1></div>
+         <div class="menu">
+                <a href="main.html" style="color:rgb(245, 58, 58);">Home</a>
+                <a href="About.html">About</a>
+                <a href="tour.html">Tours </a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html" class="signup"  onclick="document.getElementById('login-form').style.display='block'" 
+         style="width:auto;"><i class="fa fa-user-circle fa-lg"></i></a>
+             </div>
+     </nav>
+
+     <section class="contact" >
+        <h1 class="text-center" style="color:whitesmoke;">Contact Us</h1>
+        <br>
+        <div class="row">
+        <div class="contact-info">
+
+            <div class="box">
+                
+                <h4> <i class="fa fa-home"></i> Address </h4>
+                <p>Nagpur, <br>
+                Maharashtra, <br>
+                440013.</p>
+            </div>
+            <div class="box">
+                <h4> <i class="fa fa-envelope"></i> E-mail </h4>
+                <p>maharashtratour@gmail.com</p>
+            </div>
+        
+            <div class="box">
+                <h4> <i class="fa fa-phone"></i> Phone </h4>
+                <p>+123 4567 890</p>
+            </div>
+        </div>
+        <div class="form">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name"> <br>
+        <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone"> <br>
+        <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email"> <br>
+        <textarea class="form-input" name="text" id="text" cols="5" rows="5" placeholder="Ellaborate your concern"></textarea>
+        <button class="btn btn-dark"onclick="myFunction()">Message</button>
+<script>
+function myFunction() {
+  alert("Thank you! We will contact you soon..");
+}
+</script>
+
+        </div>
+        </section>
+</body>
+</html>
